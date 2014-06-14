@@ -1,9 +1,0 @@
-cleandata.py 输入是review data，用来删除多余的表情和标点之类的
-token_tag.py 输入是clean 过的data，然后进行token tag
-getKeyword.py 输入是tag过的data，然后得到keyword，以及对应的形容词
-getkwpoint.py 输入是keyword和对应的形容词，得到每个keyword的得分
-subset_key.py 得到一个keyword的subset
-create_loc_feature.py 生成location 的feature
-create_features_training_data.py 生成关于keyword的feanture，根据之前的label， 和location feature，生成全部feature
-train_with_svm.py 从feature文件中读取相关内容， train和test。如果要用SVR，直接把svm.SVC 改成svm.SVR
-
