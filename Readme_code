@@ -1,0 +1,9 @@
+
+ -cleandata.py is for removing duplicate punctuations and emocions, such as :),!!, etc.
+ -token_tag.py is for tokenizing cleaned text data with taging in NLTK.
+ -getKeyword.py is for getting the keywords from tagged text data and the corresponding adjective to the keywords.
+ -getkwpoint.py is for computing scores for each keywords.
+ -subset_key.py is for creating a subset of keywords based on the size we provided.
+ -create_loc_feature.py is for creating the location features for each business.
+ -create_features_training_data.py is for creating features based on keywords. According to the previous label and location features, generate the whole feature space.
+ -train_with_svm.py  Apply SVR for the features and get result.
